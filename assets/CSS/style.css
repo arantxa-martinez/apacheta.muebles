@@ -1,0 +1,246 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+
+}
+/* pagina principal*/
+
+
+
+.navbar{
+  float: left;
+  display: block;
+
+
+}
+
+.Titulo{
+  font-style: italic;
+  font-size: large;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center; 
+  letter-spacing: 5px;
+}
+
+h1{
+  background-color:rgba(230, 201, 195, 1) ;
+  width: fit-content;
+  height: 10vh;
+  color: rgba(0, 75, 69, 1);
+  font-size: large;
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+
+div h1{
+  width: 300px; height: 75px;
+   transition: all 2s;  
+
+}
+div h1:hover{
+  height: 200px; width: 300px;
+   padding: 20px;
+   background-color:rgba(230, 201, 195, 1)
+   
+}
+
+     
+
+h2{color: rgba(0, 75, 69, 1)}
+
+ul{
+  background-color: rgba(0, 75, 69, 1)eal;
+  width: 60vw;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.contenedortitulo{
+  display: flex;
+  flex-direction: column;
+  width: 200px; 
+  height: 150px;
+  background :rgba(230, 201, 195, 1);
+  transform: rotate(5deg); 
+  justify-content: center;
+  align-items: center;
+  transition: all 4s; 
+}
+
+.caja{
+  margin: 150px 15px; 
+  width: 150px; 
+  height: 150px;
+  background: rgba(230, 201, 195, 1);
+  color: rgba(230, 201, 195, 1);
+  font-size: 20px; 
+  text-align: center; 
+  line-height: 150px; 
+  transition: all 4s; 
+}
+
+
+
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color:rgba(230, 201, 195, 1);
+
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: white;
+
+}
+
+
+h3{
+  grid-area: primero;
+  font-size: 40px;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: rgba(0, 75, 69, 1);
+
+}
+.arquitecta{
+  grid-area: segundo;
+  font-size: 30px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  color: rgba(0, 75, 69, 1);
+}
+.muebles_proyectos_yarte{
+  grid-area: tercero;
+  font-size: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  color: rgba(0, 75, 69, 1);
+  width: 300px; height: 75px;
+  transition: all 2s;  
+  
+}
+
+
+/*pagina principal: SECCION SERVICIOS*/
+
+.servicios{
+  width: 90vw;
+  height: 90vw;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.servicios div{
+  background-color: rgba(0, 75, 69, 1);
+  width: 200px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  color: rgba(230, 201, 195, 1);
+  text-align: center;
+}
+
+.servicios div h5{
+  font-size: 20px;
+  border-bottom: solid 1px;
+}
+.servicios div h2{
+  transform: skewX(200deg);
+}
+
+
+
+
+.container{
+  padding: 15px;
+  text-align: center;
+  width: 650px; 
+  height: 300px;
+  font-family: 'IBM Plex Mono', monospace;
+  background:rgba(230, 201, 195, 1);
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5x;
+ }
+.container_c{
+
+  padding: 15px;
+  text-align: center;
+  width: 600px; 
+  height: 300px;
+  font-family: 'IBM Plex Mono', monospace;
+  background:rgba(230, 201, 195, 1);
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5x;
+}
+
+ .carousel-inner{
+   height: 800px;
+   width: 800px;
+ }
+
+
+footer{color: rgba(230, 201, 195, 1);
+  background-color: rgba(0, 75, 69, 1);
+  text-align: center;
+  float: inline-end;
+}
+
+/* sobre mi page */
+
+.queson{
+  text-align: center;
+  grid-area: primero;
+  font-size: 40px;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: rgba(0, 75, 69, 1);
+
+}
+
+.apachetahistoria{
+  grid-area: segundo;
+  font-size: 15px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  padding: 10px;
+  color: rgba(0, 75, 69, 1)
+}
+
+
+
+
+ 
+/*productos&colaboraciones pagina*/
+
+
+
+
+
+
+

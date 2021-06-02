@@ -1,0 +1,184 @@
+
+
+$primarycolor: rgba(230, 201, 195, 1);
+$bkgColor: rgba(0, 75, 69, 1);
+$titlefont:normal 24px/1.5 'Open Sans', sans-serif;
+
+
+header{
+    background-color: $primarycolor;
+}
+
+h1{
+    color: rgba(0, 75, 69, 1)eal;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+
+}
+
+h2{
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    color: $bkgColor;
+
+}
+
+.presentacion{
+    
+    color:$bkgColor;
+    text-align: center; 
+    line-height: 50px;
+    h3{
+        font-size: 20px;
+        font-family:'IBM Plex Mono', monospace ;
+
+    }
+    p{
+        font-size: 15px;
+        font-family: 'IBM Plex Mono', monospace;
+    }
+    
+  
+    
+}
+
+h5{
+    color:$bkgColor;
+    text-align: center; 
+    font-size: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+
+
+}
+
+p{
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+
+}
+
+.carouselprimera{
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: $primarycolor;
+
+}
+
+
+.card
+
+
+     
+
+
+footer p{
+    color: $primarycolor;
+    background-color: $bkgColor;
+    font: $titlefont;
+    text-align: center;
+    float: inline-end;
+}
+
+
+
+.servicios{
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .card{
+    background-color: rgba(0, 75, 69, 1);
+    width: 200px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    color: rgba(230, 201, 195, 1);
+    text-align: center;
+
+    }
+
+    h5{
+        font-size: 20px;
+        border-bottom: solid 1px;   
+    }
+}
+ 
+/*.servicios{
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  .servicios div{
+    background-color: rgba(0, 75, 69, 1);
+    width: 200px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    color: rgba(230, 201, 195, 1);
+    text-align: center;
+  }
+  
+  .servicios div h5{
+    font-size: 20px;
+    border-bottom: solid 1px;
+  }
+  .servicios div h2{
+    transform: skewX(200deg);
+  }*/
+  
+.container_c{
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 800px; 
+  height: 200px;
+  font-family: 'IBM Plex Mono', monospace;
+  background:rgba(230, 201, 195, 1);
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5x;}
+
+
+
+
+
+
+
+        
+    
+
+
+
+
+
+  
+  
+
+
+
+
+ 
+  
+ 
+  
+  
+
+
+
+
+
+
+
+
