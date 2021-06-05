@@ -17,7 +17,7 @@
   <header>
     <section>
     
-      <a href="./index.html"><img src="../apachetalogo.png" width="150" height="150" alt="logo del sitio" ></a>
+      <a href="../index.html"><img src="../apachetalogo.png" width="150" height="150" alt="logo del sitio" ></a>
       
       <div>
         <ul class="nav nav-tabs">
@@ -47,44 +47,98 @@
   
   </header>
 
-          
-        <div class="container_c">
-            <h2>Te podemos ayudar en algo? Envianos un e-mail</h2>
-                 <form action="#">
-                    <div class="container__form">
-                        <fieldset>
-                            <label> Nombre y Apellido
-                                 <input type="text" name="Nombre">
-                
-                            </label>
-                            <label> E-mail
-                                <input type="text" name="email">
-                
-                            </label>
-                            <label> En que podemos ayudarte?
-                        <select name="que necesitas">
-                            <option value="consulta arquitectura">Consulta arquitectura</option>
-                            <option value="presupuesto muebles">Presupuesto muebles</option>
-                        </select>
-                            </label>
-                            <label> Deseas recibir nuestras ultimas ofertas?
-                                <input type="checkbox" name= "acepta" value=>
-                            </label>
-                                <input type="submit" value= "enviar formulario">
-                                <input type="reset" value= "borrar todo">
-                        </fieldset>
-                             
-                         </form>
-                </div>
+          <main>
+
+
+            <section class="Material-contact-section section-padding section-dark">
+              <div class="container">
+                  <div class="row">
+                      <!-- Section Titile -->
+                      <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                          <h1 class="section-title">Nos Encantaria Ayudarte</h1>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <!-- Section Titile -->
+                      <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                        <p>El equipo de Apacheta esta siempre disponible para ayudarte. Escribinos y contanos que necesitas, nos pondremos en contacto con vos tan pronto como podamos.</p>
+        
+                        <div class="find-widget">
+                          Telefono:  <a href="#">+ 879-890-9767</a>
+                        </div>
+                        
+                      </div>
+                      <!-- contact form -->
+                      <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                          <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                              <!-- Name -->
+                              <div class="form-group label-floating">
+                                <label class="control-label" for="name">Nombre</label>
+                                <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                                <div class="help-block with-errors"></div>
+                              </div>
+                              <!-- email -->
+                              <div class="form-group label-floating">
+                                <label class="control-label" for="email">Email</label>
+                                <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                                <div class="help-block with-errors"></div>
+                              </div>
+                              <!-- Motivo -->
+                              <div class="form-group label-floating">
+                                <label class="control-label">Motivo</label>
+                                <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+                                <div class="help-block with-errors"></div>
+                              </div>
+                              <!-- Mensaje -->
+                              <div class="form-group label-floating">
+                                  <label for="message" class="control-label">Mensaje</label>
+                                  <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                              <!-- Form Submit -->
+                              <div class="form-submit mt-5">
+                                  <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Enviar Mensaje</button>
+                                  <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                  <div class="clearfix"></div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+            </section>
+            <!--<div class="container_c">
+              <h2 class="container-contacto">Te podemos ayudar en algo? Envianos un e-mail</h2>
+                   <form action="#">
+                      <div class="container__form">
+                          <fieldset>
+                              <label> Nombre y Apellido
+                                   <input type="text" name="Nombre">
+                  
+                              </label>
+                              <label> E-mail
+                                  <input type="text" name="email">
+                  
+                              </label>
+                              <label> En que podemos ayudarte?
+                          <select name="que necesitas">
+                              <option value="consulta arquitectura">Consulta arquitectura</option>
+                              <option value="presupuesto muebles">Presupuesto muebles</option>
+                          </select>
+                              </label>
+                              <label> Deseas recibir nuestras ultimas ofertas?
+                                  <input type="checkbox" name= "acepta" value=>
+                              </label>
+                                  <input type="submit" value= "enviar formulario">
+                                  <input type="reset" value= "borrar todo">
+                          </fieldset>
+                               
+                           </form>
+                  </div>-->
+          </main>
+        
         
 
-                <ul class="pagination">
-                  <li class="page-item"><a class="page-link" href="../index.html">Anterior</a></li>
-                  <li class="page-item"><a class="page-link" href="./productos&colaboraciones.html">1</a></li>
-                  <li class="page-item"><a class="page-link" href="./arquitectura.html">2</a></li>
-                  <li class="page-item"><a class="page-link" href="./contacto.html">3</a></li>
-                  <li class="page-item"><a class="page-link" href="./productos&colaboraciones.html">Siguiente</a></li>
-                </ul>
+             
             
      
     
