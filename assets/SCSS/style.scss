@@ -1,27 +1,177 @@
 
 
 $primarycolor: rgba(230, 201, 195, 1);
-$bkgColor: rgba(0, 75, 69, 1);
-$titlefont:normal 24px/1.5 'IBM Plex Mono', monospace;
+$bkgColor: rgb(4, 145, 133);
+$titlefont:normal 24px/1.5 'Indie Flower';
 
+/*Navegacion*/ 
+
+
+a{
+    
+    color:rgb(4, 145, 133) !important;
+    
+}
+.nav-item {
+    font-family: normal 24px/1.5 'Indie Flower';
+    margin: 0 auto;
+    padding: 5em 3em;
+    text-align: center;
+}
+.nav-item a {
+    color: #FFF;
+    text-decoration: none;
+    font:  normal 24px/1.5 'Indie Flower';
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+}
+
+
+/* Bordes */
+.topBotomBordersOut a:before, .topBotomBordersOut a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content:"";
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.topBotomBordersOut a:before {
+    top: 0px;
+    transform: translateY(10px);
+}
+.topBotomBordersOut a:after {
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
 
 
 
 header{
     background-color: $primarycolor;
+    height: 200px;
 }
 
 h1{
-    color: rgba(0, 75, 69, 1)eal;
-    font-family: 'IBM Plex Mono', monospace;
+    color:rgb(4, 145, 133);
+    font-family:'Indie Flower';
     text-align: center;
 
 }
 
+h3.h3{
+    text-align:center;
+    margin:1em;
+    text-transform:capitalize;
+    font-size: 5px;
+  }
+.container{
+  padding-top: 3em;
+}
+
+/*cuadros final*/ 
+.product-grid{
+  
+  font-family:'Indie Flower';
+  text-align:center;
+  padding:0 0 72px;
+  border: 3px solid $primarycolor;
+  overflow:hidden;
+  position:relative;
+  z-index: 2;
+}
+.product-grid .product-image{
+  position:relative;
+  transition:all .3s ease 0s;
+  padding-top: 3em;
+}
+
+.product-grid .product-image a{
+  display:block
+}
+/*.product-grid .product-image img{
+  width:100%;
+  height:auto
+}*/ 
+.product-grid .pic-1{
+  opacity:1;
+  transition:all .3s ease-out 0s
+}
+.product-grid:hover .pic-1{
+  opacity:1
+}
+
+.product-grid .pic-2{
+  opacity:0;
+  position:absolute;
+  top:0;
+  left:0;
+  transition:all .3s ease-out 0s
+}
+.product-grid:hover .pic-2{
+  opacity:1
+}
+
+
+.product-grid .product-content h3 .title{
+  background-color: white;
+  color:$bkgColor ;
+  text-align:center;
+  padding:12px 0;
+  margin:0 auto;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:-27px;
+  z-index:1;
+  transition:all .3s
+}
+.product-grid:hover .product-content{
+  bottom:0
+}
+.product-grid div .texto{
+  font-family:'Indie Flower';
+  color: $primarycolor;
+  font: size 50px;
+  font: weight 500px;;
+  letter-spacing:.5px;
+  text-transform:capitalize;
+  margin:0 0 10px;
+  transition:all .3s ease 0s
+}
+.product-grid .title a{
+    font: size 50px;
+  color: $primarycolor;
+}
+.product-grid .title a:hover,.product-grid:hover .title a{
+  color:$primarycolor
+}
+
+
+
+@media only screen and (max-width:990px){.product-grid{margin-bottom:30px}
+}
+
+
+/*sobre mi page*/ 
+
+
 h2{
-    font-family: 'IBM Plex Mono', monospace;
+    .titulohistoria{
+    font-family: 'Indie Flower';
     text-align: center;
     color: $bkgColor;
+    }
+    
 
 }
 
@@ -32,41 +182,43 @@ h2{
     line-height: 50px;
     .significado{
         padding-top: 1em;
-        font-size: 25px bold;
-        font-family:'IBM Plex Mono', monospace ;
+        font-size: 40px bold;
+        font-family: 'Indie Flower';
         text-transform:uppercase;
         text-decoration-line: underline;
 
     }
     p{
-        font-size: 15px;
-        font-family: 'IBM Plex Mono', monospace;
+        font-size: 20px;
+        font-family: 'Indie Flower';
     }
     
   
     
 }
 
+.carouselprimera{
+    font-family: 'Indie Flower';
+    background-color: $primarycolor;
+
+}
+
 h5{
     color:$bkgColor;
     text-align: center; 
     font-size: 15px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Indie Flower';
 
 
 }
 
 p{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Indie Flower';
     text-align: center;
 
 }
 
-.carouselprimera{
-    font-family: 'IBM Plex Mono', monospace;
-    background-color: $primarycolor;
 
-}
 
 
 
@@ -85,7 +237,7 @@ footer p{
 
 
 
-.servicios{
+/*.servicios{
     width: 90vw;
     height: 90vw;
     margin-bottom: 70px;
@@ -155,7 +307,7 @@ footer p{
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
-  margin-left: 5x;}
+  margin-left: 5x;}*/ 
 
 
 
@@ -173,7 +325,7 @@ footer p{
 
 .product-grid{
     
-    font-family:'IBM Plex Mono';
+    font-family:'Indie Flower';
     text-align:center;
     padding:0 0 72px;
     border:1px solid $primarycolor;
@@ -229,7 +381,7 @@ footer p{
     bottom:0
 }
 .product-grid .title{
-    font-family:'IBM Plex Mono';
+    font-family:'Indie Flower';
     font-size:13px;
     font-weight:400;
     letter-spacing:.5px;
@@ -246,7 +398,7 @@ footer p{
 .product-grid .price{
     color:#333;
     font-size:10px;
-    font-family:'IBM Plex Mono';
+    font-family:'Indie Flower';
     font: weight 400px;;
     letter-spacing:.6px;
     margin-bottom:8px;
@@ -268,7 +420,7 @@ footer p{
 }
 
 
-  /*contacto*/
+  /*contacto pagina*/
   .section-padding {
     padding: 45px 0;
 }
@@ -834,7 +986,7 @@ select.form-control[multiple] {
     height: auto
 }
 
-  
+
 
 
 

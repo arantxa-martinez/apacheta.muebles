@@ -8,9 +8,12 @@
     <meta name="description" content="Apacheta contenido del emprendimiento, sus productos, ofertas y novedades">
     <link rel="stylesheet" href="./assets/SCSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+  
+    
     <title>apacheta</title>
 </head>
 <body>
@@ -20,35 +23,39 @@
       <section>
         <a href="./index.html"><img src="./apachetalogo.png" width="150" height="150"alt="logo del sitio" class="primeraparte__logo"></a>
      
-      
-      <div class="primeraparte">
-  
+       
         
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link active" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./views/sobremi.html">Sobre Mi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./views/productos&colaboraciones.html">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./views/arquitectura.html">Arquitectura</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./views/contacto.html">Contacto</a>
-          </li>
-        </ul> 
+        <nav class="menum navbar navbar-light navbar-expand-md justify-content-center fixed-top">
+          <div class="container">
   
-        <h1> Cambia el modo en el que vives tu casa</h1>
-      
-      </div>
-  
+          <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            <ul class="topBotomBordersOut navbar-nav mx-auto text-center">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="../htdox/views/sobremi.html">Sobre Mi</a> 
+                 </li>
+              <li class="nav-item"> 
+                <a class="nav-link" href="./views/productos&colaboraciones.html">Productos</a> 
+                </li>
+              <li class="nav-item"> 
+                <a class="nav-link" href="./views/arquitectura.html">Arquitectura</a> 
+                </li>
+              <li class="nav-item"> 
+                <a class="nav-link" href="./views/contacto.html">Contacto</a> 
+                </li>
+              
+            </ul>
+          </div>
+          </div>   
+        </nav>
   
     </section>
     </header>
+    
+ 
+    
      <main class="contenido">
   
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -87,8 +94,64 @@
         </a>
       </div>
   
+      <main>
+        <div class="container">
+          <div class="row">
+            <!--primer cuadro-->
+            <div class="col-md-4 col-sm-6">
+              <div class="product-grid">
+                <div class="product-image">
+                        <!--imagen primer seccion muebles-->
+                  <img class="pic-1" src="../htdox/imagenes/mesa ratona.JPG" width="200" height="200">
+                      <div class="product-content">
+                          <h3 class="title"><a href="./views/productos&colaboraciones.html">Muebles</a></h3>
+                          <div class="texto">
+                            <span>Linea Amazonita</span>
+                          </div>
+                       </div>
+                  </div>      
+              </div>
+            </div>
+            <!--segundo cuadro-->
+              <div class="col-md-4 col-sm-6">
+                  <div class="product-grid">
+                      <div class="product-image">
+                        <!--Imagen segunda seccion-->
+                              <img class="pic-1" src="../htdox/imagenes/Proyecto1.png" width="200" height="200"> 
+                          <div class="product-content">
+                            <h3 class="title"><a href="../htdox/views/arquitectura.html">Proyectos</a></h3>
+                            <div class="texto">
+                                <span>Nueva Casa N&G </span>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <!--tercer cuadro-->
+              <div class="col-md-4 col-sm-6">
+                  <div class="product-grid">
+                      <div class="product-image">
+                        <!--Imagen tercera seccion-->
+                              <img class="pic-1" src="../htdox/imagenes/Arte.png" width="200" height="200">
+                              <div class="product-content">
+                                <h3 class="title"><a href="./views/productos&colaboraciones.html">Arte</a></h3>
+                                <div class="texto">
+                                    <span>Arte en Ceramica </span>
+                                </div>
+                            </div> 
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <hr>
+        
+       
+       
     
-          <section class="servicios">
+    
+      </main>
+          <!--<section class="servicios">
               <div class="card" style="width: 18rem;">
                 <img src="./imagenes/Juego de living .JPG" width="130" height="130" class="card-img-top" alt="Living">
                 <h2> <span class="badge badge-secondary">New</span></h2>
@@ -123,7 +186,7 @@
                </div>
   
           
-          </section>
+          </section>-->
   
   
         </main>
