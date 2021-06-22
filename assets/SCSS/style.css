@@ -60,13 +60,13 @@ h1 {
   color: #049185;
   font-family: 'Indie Flower';
   text-align: center;
+  padding-top: 2em;
 }
 
 h3.h3 {
   text-align: center;
   margin: 1em;
   text-transform: capitalize;
-  font-size: 5px;
 }
 
 .container {
@@ -154,12 +154,12 @@ h3.h3 {
 }
 
 .product-grid .title a {
-  font: size 50px;
-  color: #e6c9c3;
+  font-size: 20px;
+  color: #049185;
 }
 
 .product-grid .title a:hover, .product-grid:hover .title a {
-  color: #e6c9c3;
+  color: #049185;
 }
 
 @media only screen and (max-width: 990px) {
@@ -169,12 +169,15 @@ h3.h3 {
 }
 
 /*sobre mi page*/
-h2 .titulohistoria {
-  font-family: 'Indie Flower';
-  text-align: center;
-  color: #049185;
-}
+/*h2{
+    .titulohistoria{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: $bkgColor;
+    }
+    
 
+}*/
 .presentacion {
   color: #049185;
   text-align: center;
@@ -184,15 +187,15 @@ h2 .titulohistoria {
 .presentacion .significado {
   padding-top: 1em;
   font-size: 40px bold;
-  font-family: 'Indie Flower';
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
 
 .presentacion p {
-  font-size: 20px;
-  font-family: 'Indie Flower';
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .carouselprimera {
@@ -202,14 +205,16 @@ h2 .titulohistoria {
 
 h5 {
   color: #049185;
+  padding-top: 2em;
   text-align: center;
   font-size: 15px;
-  font-family: 'Indie Flower';
+  font-family: 'Poppins', sans-serif;
 }
 
 p {
-  font-family: 'Indie Flower';
+  font-family: 'Poppins', sans-serif;
   text-align: center;
+  padding-top: 2em;
 }
 
 footer p {
@@ -220,77 +225,6 @@ footer p {
   float: inline-end;
 }
 
-/*.servicios{
-    width: 90vw;
-    height: 90vw;
-    margin-bottom: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-
-    .card{
-    background-color: rgba(0, 75, 69, 1);
-    width: 200px;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    color: rgba(230, 201, 195, 1);
-    text-align: center;
-
-    }
-
-    h5{
-        font-size: 20px;
-        border-bottom: solid 1px;   
-    }
-}
-
- 
-.servicios{
-    width: 90vw;
-    height: 90vw;
-    margin-bottom: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-  
-  }
-  .servicios div{
-    background-color: rgba(0, 75, 69, 1);
-    width: 200px;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    color: rgba(230, 201, 195, 1);
-    text-align: center;
-  }
-  
-  .servicios div h5{
-    font-size: 20px;
-    border-bottom: solid 1px;
-  }
-  .servicios div h2{
-    transform: skewX(200deg);
-  }
-  
-.container_c{
-  padding: 15px;
-  padding-top: 4em;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  width: 800px; 
-  height: 200px;
-  font-family: 'IBM Plex Mono', monospace;
-  background:rgba(230, 201, 195, 1);
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 5x;}*/
 /*productos*/
 h3.h3 {
   text-align: center;
@@ -421,8 +355,8 @@ h3.h3 {
 }
 
 /*contacto pagina*/
-.section-padding {
-  padding: 45px 0;
+.section-title {
+  padding: 2em;
 }
 
 .section-dark {
