@@ -198,6 +198,7 @@ h3.h3 {
   font-family: 'Poppins', sans-serif;
 }
 
+/* carousel */
 .carouselprimera {
   font-family: 'Indie Flower';
   background-color: #e6c9c3;
@@ -206,8 +207,9 @@ h3.h3 {
 h5 {
   color: #049185;
   padding-top: 2em;
+  padding-bottom: 2em;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
 
